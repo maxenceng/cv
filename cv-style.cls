@@ -97,9 +97,9 @@
     \hyphenation{#3}\end{otherlanguage}}}
 %\sethyphenation[<options>]{<language>}{<list of words separated by spaces>}
 
-\ifdefined\@cv@espanol
-  \setdefaultlanguage{spanish}
-  \def\lastupdatedtext{Última Actualización el}
+\ifdefined\@cv@french
+  \setdefaultlanguage{french}
+  \def\lastupdatedtext{Dernière mise à jour le}
 \else
   \setdefaultlanguage[variant=british]{english}
   \def\lastupdatedtext{Last Updated on}
